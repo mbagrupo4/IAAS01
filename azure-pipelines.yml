@@ -9,9 +9,9 @@ pool:
   #vmImage: 'windows-latest'
 
 variables:
-  location: 'westus2'  # West US 2
-  vmSku: 'Standard_B2ls_v2'  # 2 vCPUs, 4 GiB
-  windowsOSVersion: '2025-datacenter-azure-edition'  # Windows Server 2025 Datacenter Azure Edition
+  location: 'eastus'  # West US 2
+  vmSku: 'Standard_B1s'  # 2 vCPUs, 4 GiB
+  windowsOSVersion: '2022-datacenter-azure-edition'  # Windows Server 2025 Datacenter Azure Edition
   resourceGroupName: 'rg-iac-web-iis01'
   vmName: 'vm-iac-web-iis'
   templateFile: 'vm-iis-template.json'
