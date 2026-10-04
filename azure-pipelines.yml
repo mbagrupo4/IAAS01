@@ -4,7 +4,7 @@ trigger:
 pool:
   name: Default # Nome do agent pool
   demands:
-    - Agent.Name -equals mbanuvem-agent  # 🔁 Força o uso do agente específico - substitua pelo nome do Agent criado
+    - Agent.Name -equals mbanuvemagent2  # 🔁 Força o uso do agente específico - substitua pelo nome do Agent criado
 
   #vmImage: 'windows-latest'
 
